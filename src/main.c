@@ -3,8 +3,6 @@
 
 int main(int argc, char **argv)
 {
-    printf("Ola Mundo\n");
-
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
     glutInitWindowSize(1300, 720);
